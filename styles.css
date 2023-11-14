@@ -11,7 +11,7 @@ body {
     /* padding-left: 50px; */
 }
 
-.background {
+.background-one {
     background-color: #1F2937;
     padding-left: 350px;
     padding-right: 350px;
@@ -113,11 +113,13 @@ button:focus {
     gap: 45px;
     text-wrap: wrap;
     margin-top: 15px;
+    margin-bottom: 65px;
     color: rgba(28, 33, 41, 0.603);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 18px;
     text-align: center;
+    
 }
 
 .text1,
@@ -126,4 +128,35 @@ button:focus {
 .text4 {
     width: 178px;
     height: auto;
+}
+
+.third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+.background-two {
+    background-color: #E5E7EB;
+    
+}
+
+.third-one {
+    width: 850px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.third-two {
+    display: flex;
+    width: 750px;
+    justify-content: end;
+    font-size: 24px;
+    font-weight: 800;
 }
