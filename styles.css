@@ -89,3 +89,41 @@ button:focus {
     font-size: 18px;
     
 }
+
+.second-header {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-main-section {
+    display: flex;
+    gap: 45px;
+}
+
+.second-main-text {
+    display: flex;
+    gap: 45px;
+    text-wrap: wrap;
+    margin-top: 15px;
+    color: rgba(28, 33, 41, 0.603);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.text1,
+.text2,
+.text3,
+.text4 {
+    width: 178px;
+    height: auto;
+}
