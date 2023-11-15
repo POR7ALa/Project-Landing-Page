@@ -160,3 +160,73 @@ button:focus {
     font-size: 24px;
     font-weight: 800;
 }
+
+.fourth-section {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-section-content-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 265px;
+    background-color: #3882F6;
+    padding: 30px;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 65px;
+    padding-right: 65px;
+}
+
+.first-half-section-four {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.second-half-section-four {
+    margin-right: 45px;
+}
+
+.call-to-action {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.fourth-button {
+    display: flex;
+    width: 122px;
+    height: 41px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border: solid;
+    border-color: white;
+    color: white;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.fourth-button button,
+button:active,
+button:focus {
+  border: solid;
+} 
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #1F2937;
+}
